@@ -58,6 +58,9 @@ margin-right: auto;
 padding-top: 24px;
 padding-bottom: 24px;
 display: block;
+transition-property: color;
+transition-duration: 300ms;
+transition-delay: 100ms;
 }
 
 a:hover, 
@@ -258,9 +261,11 @@ color: #434455;
 display: flex;
 gap: 40px;
 padding-left: 0; 
-margin: 0;
+margin: 0;}
 
-}
+
+
+
 
 .header-social-list {
     display: flex;
@@ -343,6 +348,10 @@ padding: 32px 16px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .header-border {
@@ -380,4 +389,10 @@ text-transform: uppercase;
 color: #4d5ae5;
 display: inline-block; 
 margin-bottom: 16px;
+}
+
+.icon {
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
 }
