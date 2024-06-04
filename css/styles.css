@@ -61,6 +61,7 @@ display: block;
 transition-property: color;
 transition-duration: 300ms;
 transition-delay: 100ms;
+
 }
 
 a:hover, 
@@ -68,7 +69,6 @@ a:focus
 {
     color: #404BBF;
 }
-
 
 .adresa {
     font-style: normal;
@@ -410,9 +410,9 @@ align-items: center;
     color: #2E2F42;
 }
 
-.navigator-list.current::after {
+.navigator-list.current:active:after {
     content: '';
-    position: static;
+    position: absolute;
     left: 0;
     bottom: -1px;
     display: block;
