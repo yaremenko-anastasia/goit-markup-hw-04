@@ -455,7 +455,15 @@ align-items: center;
         display: flex;
         align-items: center;
         justify-content: center;
+        
+    }
+
+    .icons{
         fill: #fff;
+    }
+
+    .link-icons-team-social:focus{
+        background-color: #404bbf;
     }
 
     .team-back:hover .link-icons-team-social {
