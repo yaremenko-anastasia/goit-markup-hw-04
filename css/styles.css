@@ -436,7 +436,8 @@ align-items: center;
 
     .icons-team-social-list{
         display: flex;
-        justify-content: space-evenly;        
+        justify-content: center;
+        gap: 24px;      
     }
 
     .ellipse{
