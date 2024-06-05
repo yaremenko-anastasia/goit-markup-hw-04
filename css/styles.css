@@ -419,7 +419,7 @@ align-items: center;
     color: #2e2f42;
 }
 
-.navigator-list.current:active:after {
+.navigator-list.current:active::after {
     content:'';
     position:absolute;
     left:0;
