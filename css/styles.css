@@ -525,26 +525,36 @@ align-items: center;
         color: #f4f4fd;
     }
 
-    .overlay {
-          padding: 8px;
-          background-color: #3f51b5;
-          color: #fff;
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          transform: translateY(100%);
-          transition: transform 250ms ease-in-out;
-          
-      }
-      
-      .portfolio-item-list:hover .overlay{
-          transform:translateY(0);
-              
-      }
+  .portfolio-img{
+    position: relative;
+    overflow: hidden;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    color: #FFFFFF;
+    padding: 10px;
+    line-height: 1.2;
+    overflow: auto;
+    transform: translateY(100%);
+    transition: transform 250ms linear;
 
-      .portfolio-img{
-        position: relative;
-        overflow: hidden;
-      }
+}
+.portfolio-item-list:hover .overlay,
+.portfolio-item-list:focus .overlay {
+    transform: translateY(0%);
+}
+
+.overlay-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+margin-top: 40px;;
+margin-left: 32px;
+}
