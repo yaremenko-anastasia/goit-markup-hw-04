@@ -338,6 +338,7 @@ margin: 0;
     background: #fff;
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms;
+    
 }
 
 .portfolio-item-list:hover{
@@ -541,4 +542,9 @@ align-items: center;
       .portfolio-item-list:hover .overlay{
           transform:translateY(0);
               
+      }
+
+      .portfolio-img{
+        position: relative;
+        overflow: hidden;
       }
