@@ -223,6 +223,7 @@ color: #434455;
     color: #f4f4fd;
     width: 264px;
     max-width: 264px;
+    margin-bottom: 16px;
 }
 
 .visually-hidden {
