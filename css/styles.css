@@ -222,8 +222,7 @@ color: #434455;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
-    max-width: 264px
-    
+    max-width: 264px;
 }
 
 .visually-hidden {
@@ -404,7 +403,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 display: inline-block; 
-margin-bottom: 16px;
+
 }
 
 .logo-footer-main{
@@ -498,7 +497,9 @@ align-items: center;
         fill: #fff;
     }
 
-    .link-icons-footer-social:hover{
+    .link-icons-footer-social:hover,
+    .link-icons-footer-social:focus
+    {
         width: 100%;
         height: 100%;
         color: #F4F4FD;
@@ -528,6 +529,7 @@ align-items: center;
     .list-social-media-footer{
         display: flex;
         justify-content: space-between;
+        gap: 16px; 
     }
 
     .social-media-footer{
