@@ -417,10 +417,10 @@ align-items: center;
 
 .current {
     position: relative;
-    color: #2e2f42;
+    color: #404bbf;
 }
 
-.navigator-list.current:active::after {
+.navigator-list.current::after {
     content:'';
     position: absolute;
     left: 0;
@@ -430,8 +430,6 @@ align-items: center;
     height: 4px;
     border-radius: 2px;
     background: #404bbf;
-    color: #404bbf;
-    
     }
 
     .icons-team-social-list{
