@@ -539,6 +539,7 @@ align-items: center;
     position: relative;
     overflow: hidden;
   }
+
   .overlay {
     position: absolute;
     top: 0;
@@ -554,6 +555,7 @@ align-items: center;
     transition: transform 250ms linear;
 
 }
+
 .portfolio-item-list:hover .overlay,
 .portfolio-item-list:focus .overlay {
     transform: translateY(0%);
