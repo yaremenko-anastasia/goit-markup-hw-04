@@ -313,9 +313,11 @@ margin: 0;
 }
 
 .container {
+    display: flex;
     width:1158px; 
     padding: 0 15px;
     margin: 0 auto;
+    align-items: baseline;
 }
 
 .our-portfolio {
@@ -401,6 +403,10 @@ text-transform: uppercase;
 color: #4d5ae5;
 display: inline-block; 
 margin-bottom: 16px;
+}
+
+.logo-footer-main{
+    margin-right: 120px;
 }
 
 .section-icon-features{
@@ -524,7 +530,6 @@ align-items: center;
 
     .social-media-footer{
         width: 208px;
-        margin-left: 120px;
     }
 
     .overlay-text{
