@@ -320,6 +320,7 @@ margin: 0;
 .container-footer{
     display: flex;
     align-items: baseline;
+    margin-left: 156px;
 }
 
 .our-portfolio {
@@ -525,7 +526,6 @@ align-items: center;
         color: #fff;
         padding-bottom: 16px;
         margin-bottom: 16px;
-        margin-left: 156px;
     }
 
     .list-social-media-footer{
