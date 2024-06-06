@@ -537,10 +537,11 @@ align-items: center;
         width: 208px;
     }
 
-    .overlay-text{
+    .overlay-text
+    {
+        line-height: 1.5; 
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         position: absolute;
